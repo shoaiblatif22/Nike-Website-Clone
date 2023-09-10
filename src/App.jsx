@@ -1,3 +1,8 @@
+import { CustomerReviews, 
+  Footer, Hero, PopularProducts, 
+  SpecialOffer, Subscribe, SuperQuality } from "./sections";
+
+
 const App = () => (
   <main className="relaive">
     Nav
