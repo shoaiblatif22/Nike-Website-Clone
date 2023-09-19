@@ -1,11 +1,11 @@
 import { CustomerReviews, 
-  Footer, Hero, PopularProducts, 
+  Footer, Hero, PopularProducts, Services,
   SpecialOffer, Subscribe, SuperQuality } from "./sections";
 
 
 const App = () => (
   <main className="relaive">
-    <Nav />
+    {/* <Nav /> */}
     <section className="x1:padding-1 wide:padding-r padding-b">
       <Hero />
    </section>
