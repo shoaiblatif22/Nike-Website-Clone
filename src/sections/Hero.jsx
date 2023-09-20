@@ -1,3 +1,6 @@
+import Button from "../components/Button"
+
+
 const Hero = () => {
   return (
     <section
@@ -17,6 +20,7 @@ const Hero = () => {
         <p>Discover our stylish Nike arrivals, quality comfort and a necessity
           for your active life.
         </p>
+        <Button />
 
       </div>
 

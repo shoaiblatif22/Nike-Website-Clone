@@ -1,7 +1,9 @@
 
 const Button = () => {
   return (
-    <button></button>
+    <button className="">
+      Click Me
+    </button>
   )
 }
 
