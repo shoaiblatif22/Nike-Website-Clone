@@ -32,8 +32,8 @@ const Hero = () => {
         mt-20 gap-16">
           {statistics.map((stat) => (
             <div key={stat.label}>
-              <p>{stat.value}</p>
-              <p>{stat.label}</p>
+              <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
+              <p className="leading-7 font-montserrat text-slate-gray">{stat.label}</p>
             </div>
           ))}
         </div>
