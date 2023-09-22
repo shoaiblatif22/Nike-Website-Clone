@@ -1,6 +1,14 @@
 const CustomerReviews = () => {
   return (
-    <div>CustomerReviews</div>
+    <section className="max-container">
+      <h3 className="font palanquin text-center 
+      text-4xl font-bold">What Our
+      <span> Customers </span>
+      Say?
+      </h3>
+      
+      
+    </section>
   )
 }
 
