@@ -8,7 +8,7 @@ import { ShoeCard } from "../components/ShoeCard"
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
-  
+
   return (
     <section
       id="home"
@@ -60,8 +60,8 @@ const Hero = () => {
             <div key={shoe}>
               <ShoeCard 
                 imgURL={shoe}
-                changeBigShoeImage={() => {}}
-                bigShoeImg=""
+                changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
+                bigShoeImg={bigShoeImg}
               />
             </div>
           ))}   
